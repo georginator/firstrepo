@@ -1,3 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *{
 	color:#000;
 }
@@ -174,4 +196,32 @@ a.button:hover {
 }
 
 
+/*MEDIA QUERIES*/
 
+
+
+@media (max-width: 760px) {
+	.search-box input{
+		width: 80%;
+	}
+}
+
+@media (max-width: 455px) {
+	 .share-button, .profile-img {
+		display: none;
+
+	}
+}
+
+@media (max-width: 525px ) {
+	.left-site-links, .right-site-links {
+		float: none;
+		text-align: center;
+	}
+
+@media (max-width: 455px) {
+	.search-box img {
+		height: auto;
+		width:50%;
+	}
+}
